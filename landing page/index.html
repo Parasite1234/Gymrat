@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Landing page</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">   
+    <link href="img/alllogo.jpg" rel="icon"> 
+</head>
+<body>    
+    <h2 style="text-align:center; color:rgb(252, 253, 254);"><B>OUR GOAL IS TO HELP YOU REACH YOURS</h2></B>
+    <div class="carousel">
+        <div class="carousel-item fs-2">
+            <a href="https://github.com/Parasite1234/Next-Level"><img src="img/romwil.jpg" width="500" height="400"></a>
+            <a href="https://github.com/Parasite1234/Next-Level">
+            <h4 class="fs-2" style="text-align:center; color:rgb(252, 253, 254);"><b>ROMWIL ROJAS</h4></b></a>
+            <p style="text-align:center; color:rgb(249, 251, 252);">No pain no gain.</p>
+        
+        </div>
+
+        <div class="carousel-item fs-2">
+            <a href="https://github.com/Parasite1234/Uptown"><img src="img/elijah.jpg" width="500" height="400"></a>
+            <a href="https://github.com/Parasite1234/Uptown">
+            <h4 class="fs-2" style="text-align:center; color:rgb(252, 253, 254);"><b>ELIJAH GABRIEL CAUNDA</h4></b></a>
+            <p style="text-align:center; color:rgb(249, 251, 252);">Pwede kaba makasama sa gym? Para maging fit tayo together.</p>
+        
+        </div>
+
+        <div class="carousel-item fs-2">
+            <a href="https://github.com/Parasite1234/Gym"><img src="img/markjay.jpg" width="500" height="400"></a>
+            <a href="https://github.com/Parasite1234/Gym">
+            <h4 class="fs-2" style="text-align:center; color:rgb(252, 253, 254);"><b>MARKJAY JORNALES</h4></b></a>
+            <p style="text-align:center; color:rgb(249, 251, 252);">Let's be one and grow together.</p>
+        
+        </div>
+         
+    </div>   
+    
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+      $(document).ready(function(){
+        $('.carousel').carousel({
+          padding: 200
+      });
+      autoplay();
+      function autoplay() {
+        $('.carousel').carousel('next');
+        setTimeout(autoplay, 4500);
+      }
+      });
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
